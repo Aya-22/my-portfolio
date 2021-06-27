@@ -130,7 +130,8 @@
 
     .size {
         position: relative;
-        height: 20rem;
+        height: 25rem;
+        border: solid var(--dark);
     } 
 
     .size:hover {
@@ -139,9 +140,10 @@
     }
 
     .image-header {
-        position: absolute;
+        color: var(--dark);
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         height: 40px;
-        background-color: var(--dark);
         padding-left: 1rem;
     }
 
