@@ -36,16 +36,14 @@
         list-style-type: none;
         padding-top: 1%;
         padding-bottom: 1%;
-        padding-right: 3%;
-        
+        padding-right: 3%;  
     }
     
     li {
         display: inline-block;
         padding: 7px;
         font-size: 20px;
-        
-            
+                
     }
     
     a {
@@ -122,15 +120,42 @@
         width: 75%;
     }
     
+    .box {
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        object-fit: cover;
+    }
+
+    .size {
+        position: relative;
+        height: 20rem;
+    } 
+
+    .size:hover {
+        box-shadow: transparent;
+        opacity: 0.4;
+    }
+
+    .image-header {
+        position: absolute;
+        height: 40px;
+        background-color: var(--dark);
+        padding-left: 1rem;
+    }
+
+    /* h4 {
+        padding-bottom: 2rem;
+    } */
+
     .image-row {
         display: flex;
         flex-direction: row;
     }
     
-    .box {
-        flex-wrap: wrap;
-        padding-left: 1rem;
-        object-fit: cover;
+    .link,
+    li {
+        margin: 1rem;
+        padding: 1rem;
     }
     
     
