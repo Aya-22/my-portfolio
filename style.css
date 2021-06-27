@@ -128,12 +128,19 @@
         
     }
 
-    .size {
+    .first {
         position: relative;
         height: 25rem;
         border: solid var(--dark);
     } 
 
+    .size {
+        position: relative;
+        height: 12.5rem;
+        border: solid var(--dark);
+    } 
+
+    .first:hover,
     .size:hover {
         box-shadow: transparent;
         opacity: 0.4;
@@ -156,12 +163,22 @@
         flex-direction: row;
         
     }
+
+    .row {
+        padding: 1rem;
+    }
     
     .link,
     li {
-        margin: 1rem;
-        padding: 1rem;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 25px; 
+        padding-top: 5px;
+        padding-block: 5px;   
     }
+
+
+    
     
     
     
