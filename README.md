@@ -7,7 +7,7 @@ The format of my portfolio was based on an example provided in this weeks homewo
 Next, I worked on the css stylesheet. I always get confused on the stylesheet because of all the properties input. I decided to add each element on css as I input each tag in html. My method worked. I got confused at times and I found that writing down the code on paper put this in a different perspective. Google helped alot wiht the stylesheet.
 
 I am satisfied with the results. The following image shows the completed web application:
-
+![image](https://fullpagescreencapture.com/screen/2fb402ffc80742905ae2e47155aef51a.jpg)
 
 Link to deployed application:
 https://aya-22.github.io/my-portfolio/
