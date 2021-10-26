@@ -126,6 +126,7 @@
         flex: 1 0 200px;
         padding-left: 1rem;
         object-fit: cover;
+    
         
     }
 
@@ -162,7 +163,9 @@
     .image-row {
         display: flex;
         flex-direction: row;
-        
+        content: ;
+    
+   
     }
 
     .row {
